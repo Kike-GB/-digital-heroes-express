@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="raiz">
+        <h1>Detalle de heroes</h1>
+        <% if (result) {%>
+          Hola, mi nombre es <%= result.nombre %>
+          y soy <%= result.profesion %>
+        <% } else {%>
+          No tenemos en nuestra base ningún héroe ni heroína con ese id
+        <% } %>
+    </div>
+  </body>
+</html>

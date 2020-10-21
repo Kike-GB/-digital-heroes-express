@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="raiz">
+      <h1>Listado de heroes</h1>
+      <% heru.forEach(function(heros) { %>
+        id :<%= heros.id %></br>
+        nombre :<%= heros.nombre %></br>
+        profesion :<%= heros.profesion %></br>
+        pais : <%= heros.pais %></br>
+        reseña : <%= heros.resenia %></br></br>
+      <% }); %> 
+    </div>
+  </body>
+</html>

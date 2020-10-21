@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: teal;
+}
+
+.raiz {
+  background-color: cornflowerblue;
+  padding: 5%;
+  color: white
+}
+
+h1 {
+  text-align: center;
+  margin: 5%;
+}
